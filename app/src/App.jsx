@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SearchResult from "./Components/SearchResults/SearchResult";
 
-export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "https://foodzone-server.onrender.com/api/foods";
 
 const App = () => {
   const [data, setData] = useState(null);
